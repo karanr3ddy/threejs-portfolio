@@ -222,6 +222,17 @@ a {
   color: #ffffff;
 }
 
+.contact-button-wrapper .telegram {
+  color: #0088cc;
+}
+
+.contact-button-wrapper .telegram:hover,
+.contact-button-wrapper .telegram:hover .tooltip,
+.contact-button-wrapper .telegram:hover .tooltip::before {
+  background: #0088cc;
+  color: #ffffff;
+}
+
 /* -------------- Loading Circle -------------- */
 .hidden {
   display: none;
